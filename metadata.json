@@ -1,0 +1,18 @@
+{
+    "title": "Python: Lists - Concatenation",
+    "slug": "python-lists-concatenation",
+    "description": "Using the + operator to combine lists into a new list.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "python"
+    ],
+    "duration": 4,
+    "prerequisites": [
+        "python-lists-introduction",
+        "python-exceptions",
+        "python-lists-concatenation-shared-references"
+    ],
+    "related": []
+}

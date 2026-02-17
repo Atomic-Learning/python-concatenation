@@ -1,0 +1,41 @@
+
+<p>Just like strings, you can combine lists using the <code>+</code> operator:</p>
+
+<h2>Basic List Concatenation</h2>
+
+<py-cell>list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+combined = list1 + list2
+
+print(combined)</py-cell>
+
+<h2>Multiple Concatenations</h2>
+
+<p>You can chain multiple concatenations:</p>
+
+<py-cell>a = [1, 2]
+b = [3, 4]
+c = [5, 6]
+result = a + b + c
+
+print(result)</py-cell>
+
+<h2>Concatenation Creates a New List</h2>
+
+<p>Concatenation creates a new list without modifying the originals:</p>
+
+<py-cell>original1 = [1, 2]
+original2 = [3, 4]
+combined = original1 + original2
+
+print(original1)
+print(original2)
+print(combined)</py-cell>
+
+<h2>Can Only Concatenate Lists to Lists</h2>
+
+<p>You can only use <code>+</code> with two lists. Trying to concatenate a list with another type causes a <code>TypeError</code> as the operands are incompatible:</p>
+
+<py-cell>my_list = [1, 2]
+print(my_list + 3)
+print(my_list + [3])</py-cell>
