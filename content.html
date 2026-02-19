@@ -1,41 +1,25 @@
+<p>In Python, many built-in types support concatenation using the <code>+</code> operator. Some common types include strings, lists, tuples, and dictionaries. Here, we will use strings and lists as examples.</p>
 
-<p>Multiple lists can be joined using the <code>+</code> operator to form a new list::</p>
+<p></p>In Python, you can concatenate several objects in a single expression, and the result will be a new collection of the same type. You can use a mixture of literals and variables in concatenation expressions.</p>
 
-<h2>Basic List Concatenation</h2>
+<py-cell>string1 = "Hello"
+string2 = "World"
+combined = string1 + " " + string2 // Can concatenate multiple strings including literals
+print(combined)</py-cell>
+
+When concatenating, the original objects remain unchanged, and a new object is created to hold the result.
 
 <py-cell>list1 = [1, 2, 3]
 list2 = [4, 5, 6]
-combined = list1 + list2
 
-print(combined)</py-cell>
+combined_list = list1 + list2
+print(combined_list)
+print(list1)
+print(list2)</label></py-cell>
 
-<h2>Multiple Concatenations</h2>
+<h2>Concatenating Different Types</h2>
 
-<p>You can chain multiple concatenations:</p>
+<p>Attempting to concatenate different types (e.g., a string and a list) will raise a <code class="language-python">TypeError</code>. For example:</p>
 
-<py-cell>a = [1, 2]
-b = [3, 4]
-c = [5, 6]
-result = a + b + c
-
-print(result)</py-cell>
-
-<h2>Concatenation Creates a New List</h2>
-
-<p>Concatenation creates a new list without modifying the originals:</p>
-
-<py-cell>original1 = [1, 2]
-original2 = [3, 4]
-combined = original1 + original2
-
-print(original1)
-print(original2)
-print(combined)</py-cell>
-
-<h2>Can Only Concatenate Lists to Lists</h2>
-
-<p>You can only use <code>+</code> with two lists. Trying to concatenate a list with another type causes a <code>TypeError</code> as the operands are incompatible:</p>
-
-<py-cell>my_list = [1, 2]
-print(my_list + 3)
-print(my_list + [3])</py-cell>
+<py-cell>result = [1, 2, 3] + "hello"
+</py-cell>

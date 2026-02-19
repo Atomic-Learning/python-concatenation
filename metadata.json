@@ -1,20 +1,21 @@
 {
-    "title": "Python: Lists - Concatenation",
-    "slug": "python-lists-concatenation",
-    "description": "Using the + operator to combine lists into a new list.",
+    "title": "Python: Concatenation",
+    "slug": "python-concatenation",
+    "description": "Describes Python-specific concatenation behaviour, using strings and lists for examples.",
     "authors": [
         "chris-cooling"
     ],
     "tags": [
         "python"
     ],
-    "duration": 4,
+    "duration": 3,
     "prerequisites": [
         "python-lists-introduction",
-        "python-exceptions"
+        "python-strings-introduction",
+        "python-exceptions",
+        "programming-literals"
     ],
     "related": [
-        "python-lists-concatenation-shared-references",
-        "python-strings-concatenation"
+        "python-lists-concatenation-shared-references"
     ]
 }
