@@ -16,6 +16,7 @@
         "programming-literals"
     ],
     "related": [
-        "python-concatenation-shared-references"
+        "python-concatenation-shared-references",
+        "python-collection-multiplication"
     ]
 }
